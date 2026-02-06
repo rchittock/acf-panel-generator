@@ -1,0 +1,82 @@
+{
+    "key": "group_example",
+    "title": "Example Flexible Content",
+    "fields": [
+        {
+            "key": "field_panels",
+            "label": "Panels",
+            "name": "panels",
+            "type": "flexible_content",
+            "layouts": {
+                "hero": {
+                    "key": "layout_hero",
+                    "name": "hero",
+                    "label": "Hero Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_hero_heading",
+                            "label": "Heading",
+                            "name": "heading",
+                            "type": "text"
+                        },
+                        {
+                            "key": "field_hero_content",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "wysiwyg"
+                        },
+                        {
+                            "key": "field_hero_image",
+                            "label": "Background Image",
+                            "name": "image",
+                            "type": "image"
+                        },
+                        {
+                            "key": "field_hero_button",
+                            "label": "Call to Action",
+                            "name": "button",
+                            "type": "link"
+                        }
+                    ]
+                },
+                "text_image": {
+                    "key": "layout_text_image",
+                    "name": "text_image",
+                    "label": "Text & Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_ti_heading",
+                            "label": "Heading",
+                            "name": "heading",
+                            "type": "text"
+                        },
+                        {
+                            "key": "field_ti_content",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "wysiwyg"
+                        },
+                        {
+                            "key": "field_ti_image",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image"
+                        },
+                        {
+                            "key": "field_ti_alignment",
+                            "label": "Image Alignment",
+                            "name": "alignment",
+                            "type": "select",
+                            "choices": {
+                                "left": "Left",
+                                "right": "Right"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "acf-panel-generator/acf-panel-generator",
+    "description": "Generate component-based WordPress theme files from ACF flexible content",
+    "type": "library",
+    "keywords": [
+        "wordpress",
+        "acf",
+        "advanced-custom-fields",
+        "generator",
+        "theme-development",
+        "flexible-content",
+        "components"
+    ],
+    "homepage": "https://github.com/yourusername/acf-panel-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ACFPanelGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
