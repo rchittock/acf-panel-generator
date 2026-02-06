@@ -294,17 +294,6 @@ MIT License - see LICENSE file for details
 - **Component first** - Build reusable components, then use everywhere
 - **Test after regenerating** - Always check output after bulk regeneration
 
-## 🆚 Comparison to Other Tools
-
-| Feature | ACF Panel Generator | ACF Theme Code Pro |
-|---------|---------------------|-------------------|
-| Generate actual files | ✅ | ❌ |
-| Component architecture | ✅ | ❌ |
-| SCSS generation | ✅ | ❌ |
-| Batch processing | ✅ | ❌ |
-| Customizable templates | ✅ | ❌ |
-| Regenerate on changes | ✅ | ❌ |
-
 ## 📚 Resources
 
 - [ACF Documentation](https://www.advancedcustomfields.com/resources/)
@@ -335,9 +324,7 @@ MIT License - see LICENSE file for details
 ## 📧 Support
 
 - Open an issue on GitHub
-- Email: your@email.com
-- Twitter: @yourhandle
 
 ---
 
-Made with ❤️ for the WordPress community
+Made with ❤️ for the WordPress and ACF community
